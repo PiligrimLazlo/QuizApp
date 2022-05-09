@@ -22,23 +22,21 @@
             android:gravity="center"
             android:textColor="@color/dark_grey"
             android:textSize="30sp"
-            tools:text="Флаг какой страны изображен на рисунке?"/>
+            tools:text="Флаг какой страны изображен на рисунке?" />
 
         <ImageView
             android:id="@+id/ivImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:adjustViewBounds="true"
             android:contentDescription="Quiz Image"
-            tools:src="@drawable/ic_flag_of_ru"
-            />
+            tools:src="@drawable/ic_flag_of_ru" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
             android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <ProgressBar
@@ -47,10 +45,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:max="10"
                 android:indeterminate="false"
+                android:max="10"
                 android:minHeight="50dp"
-                android:progress="5"/>
+                android:progress="5" />
 
             <TextView
                 android:id="@+id/tvProgress"
@@ -59,58 +57,69 @@
                 android:gravity="center"
                 android:padding="15dp"
                 android:textSize="14sp"
-                tools:text="0/9"
-                />
+                tools:text="0/9" />
 
         </LinearLayout>
 
         <TextView
+            android:id="@+id/tvOptionOne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Аргентина"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/dark_grey"
             android:layout_marginTop="16dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
             android:padding="8dp"
-            />
+            android:textColor="@color/dark_grey"
+            android:textSize="25sp"
+            tools:text="Аргентина" />
+
         <TextView
+            android:id="@+id/tvOptionTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Автстралия"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/dark_grey"
             android:layout_marginTop="16dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
             android:padding="8dp"
-            />
+            android:textColor="@color/dark_grey"
+            android:textSize="25sp"
+            tools:text="Автстралия" />
+
         <TextView
+            android:id="@+id/tvOptionThree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Армения"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/dark_grey"
             android:layout_marginTop="16dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
             android:padding="8dp"
-            />
+            android:textColor="@color/dark_grey"
+            android:textSize="25sp"
+            tools:text="Армения" />
+
         <TextView
+            android:id="@+id/tvOptionFour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Австрия"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="@color/dark_grey"
             android:layout_marginTop="16dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
             android:padding="8dp"
-            />
+            android:textColor="@color/dark_grey"
+            android:textSize="25sp"
+            tools:text="Австрия" />
 
         <Button
+            android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Подтвердить"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:padding="16dp"
+            android:text="ПОДТВЕРДИТЬ"
+            android:textColor="@color/white"
             android:textSize="16sp"
-            android:padding="16dp"/>
+            android:textStyle="bold" />
 
 
     </LinearLayout>

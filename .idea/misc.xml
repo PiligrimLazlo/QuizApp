@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Course/MyProjects/MyQuizApp/app/src/main/res/drawable/default_option_border_bg.xml" value="0.24895833333333334" />
         <entry key="..\:/Android Course/MyProjects/MyQuizApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24895833333333334" />
         <entry key="..\:/Android Course/MyProjects/MyQuizApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Android Course/MyProjects/MyQuizApp/app/src/main/res/layout/activity_quiz_questions.xml" value="0.264" />
