@@ -2,6 +2,11 @@ package ru.pl.myquizapp
 
 object Constants {
 
+    const val USER_NAME: String = "userName"
+    const val TOTAL_QUESTIONS: String = "totalQuestions"
+    const val CORRECT_ANSWERS: String = "correctAnswers"
+
+
     fun getQuestions(): ArrayList<Question> {
         val questionList = ArrayList<Question>()
 
@@ -18,7 +23,7 @@ object Constants {
             2, "Флаг какой страны изображен на рисунке?",
             R.drawable.ic_flag_of_fj,
             "Замбия", "Кот-д’Ивуар",
-            "Южно-Африканская Республика", "Фиджи",
+            "ЮАР", "Фиджи",
             4
         )
         questionList.add(que2)

@@ -12,7 +12,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quiz App!"
+        android:text="@string/app_start_name"
+        android:shadowColor="@color/dark_grey"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
         android:textSize="25sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -37,7 +41,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Добро пожаловать"
+                android:text="@string/text_welcome"
                 android:textSize="35sp"
                 android:textStyle="bold"
                 android:textColor="@color/dark_grey"
@@ -47,7 +51,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Пожалуйста введите имя"
+                android:text="@string/text_enter_name"
                 android:layout_marginTop="16dp"
                 android:textSize="16sp"
                 android:textStyle="normal"
@@ -65,7 +69,7 @@
                     android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/nameHint"
+                    android:hint="@string/name_hint"
                     android:inputType="textCapWords"
                     android:textColor="@color/dark_grey"
                     android:textColorHint="@color/light_grey">
@@ -78,7 +82,7 @@
                 android:id="@+id/btnStart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="НАЧАТЬ"
+                android:text="@string/btn_text_start"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:layout_marginTop="16dp"

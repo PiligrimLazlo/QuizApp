@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">MyQuizApp</string>
-    <string name="nameHint">Имя</string>
+    <string name="name_hint">Имя</string>
+    <string name="app_start_name">Quiz App!</string>
+    <string name="text_welcome">Добро пожаловать</string>
+    <string name="text_enter_name">Пожалуйста введите имя</string>
+    <string name="btn_text_start">НАЧАТЬ</string>
+    <string name="text_result">Результат</string>
+    <string name="text_congrats">Поздравляем!</string>
+    <string name="btn_text_finish">ЗАВЕРШИТЬ</string>
 </resources>
